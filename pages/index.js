@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import SmallCard from '../Components/SmallCard';
 import MediumCard from '../Components/MediumCard';
 import LargeCard from '../Components/LargeCard';
+import LargeCard2 from '../Components/LargeCard2';
 import Footer from '../Components/Footer';
 
 export default function Home({exploredata,cardsData}) {
@@ -31,6 +32,12 @@ export default function Home({exploredata,cardsData}) {
           </div>
         </section>
 
+        <LargeCard img="https://links.papareact.com/4cj"
+          title="The Greatest outdoor"
+          description="Wishlist curated for Airbnb."
+          buttonText="Get Inspired"
+        />
+
         {/*2nd Section*/}
         <section>
           <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
@@ -42,10 +49,11 @@ export default function Home({exploredata,cardsData}) {
 
         </section>
 
-        <LargeCard img="https://links.papareact.com/4cj"
-          title="The Greatest outdoor"
-          description="Wishlist curated for Airbnb."
-          buttonText="Get Inspired"
+
+        <LargeCard2 img="https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1440"
+          title="Try hosting"
+          description="Earn extra income and unlock new opportunities"
+          buttonText="Learn more"
         />
 
 

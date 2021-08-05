@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-function LargeCard({img, title, description, buttonText}) {
+function LargeCard2({img, title, description, buttonText}) {
     return (
         <section className="relative py-16 cursor-pointer">
             <div className="relative h-96 min-w-[300px]">
@@ -9,12 +9,12 @@ function LargeCard({img, title, description, buttonText}) {
             </div>
 
             <div className="absolute top-32 left-12">
-                <h3 className="text-4xl font-bold mb-3 w-64">{title}</h3>
-                <p>{description}</p>
-                <button className="text-sm text-white bg-gray-900 px-4 py-2 rounded-lg mt-5">{buttonText}</button>
+                <h3 className="text-white text-4xl font-bold mb-3 w-64">{title}</h3>
+                <p className="text-white text-xl font-bold">{description}</p>
+                <button className=" font-bold text-sm text-black bg-white px-4 py-2 rounded-lg mt-5">{buttonText}</button>
             </div>
         </section>
     )
 }
 
-export default LargeCard
+export default LargeCard2

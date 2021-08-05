@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import {GlobeAltIcon, MenuIcon, UserCircleIcon, UserIcon, SearchIcon} from "@heroicons/react/solid"
+import {GlobeAltIcon, MenuIcon, UserCircleIcon, SearchIcon} from "@heroicons/react/solid"
 
 function Header() {
     return (
@@ -16,7 +16,7 @@ function Header() {
             </div>
 
             {/*Middle header*/}
-            <div className="flex items-center md:border-2 rounded-full
+            <div className="flex items-center  md:border-2 rounded-full
             py-2 md:shadow-sm"
             >
                 <input className="flex-grow pl-5 bg-transparent 
@@ -29,7 +29,7 @@ function Header() {
 
             {/*Right header*/}
 
-            <div className="flex items-center justify-end text-gray-500 space-x-4 ">
+            <div className="flex items-center justify-end text-gray-500 space-x-3 ">
                 <p className="hidden md:inline cursor-pointer">Beacome a Host</p>
                 <GlobeAltIcon className="h-6" />
 

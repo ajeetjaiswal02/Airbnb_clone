@@ -11,7 +11,7 @@ function Banner() {
             objectFit="cover"
             />
             <div className="absolute top-1/2 w-full text-center">
-                <p className="text-sm sm:text-lg">Not Sure where to go? Perfect.</p>
+                <p className="text-xl font-bold sm:text-sm">Not Sure where to go? Perfect.</p>
                 <button className="font-bold text-purple-500
                  bg-white px-10 py-4
                   shadow-md rounded-full my-3 hover:shadow-xl active:scale-90 transition duration-100">
