@@ -3,7 +3,8 @@ import Header from "../Components/Header"
 import Footer from "../Components/Footer"
 import { useRouter } from 'next/dist/client/router'
 import { format } from "date-fns";
-function Search() {
+
+function search() {
     const router = useRouter();
 
     const {location, startDate, endDate, nofoguest} = router.query;
@@ -44,4 +45,8 @@ function Search() {
     )
 }
 
-export default Search
+export default search
+
+
+
+
